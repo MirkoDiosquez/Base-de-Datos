@@ -1,0 +1,103 @@
+:root{
+    --color1 : #6b1b19;
+    --color2:#2c0100;
+    
+}
+
+header{
+    background-color:var(--color1);
+    height:80px;
+    width:100%;
+    position: fixed;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    z-index: 1;
+    padding: 0 20px;
+}
+
+nav{
+    background-color:var(--color1) !important;
+}
+        
+.d-block.w-100.h-100{
+    margin-left: 0;
+    padding-left: 0px;
+}
+.title{
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:var(--color2);
+}
+.texto{
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+a.nav-link{
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+
+.subtitulo{
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    color: var(--color1);
+    padding-bottom: 20;
+}
+.imagenBienv{
+    margin-top: 5%;
+}
+.imagenHist{
+    margin-bottom: 5%;
+}
+.textoConImagen{
+    padding-top: 5%;
+}
+.imagen{
+    width:fit-content;
+}
+.d-block{
+    height: 80vh;
+    height: fit-content;
+}
+.carrusel{
+    padding-bottom: 10vh;
+    padding-top: 10vh;
+}
+.imagentexto{
+    margin-left:-15px;
+}
+.textoFoto{
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+}
+.footer {
+    background-color: var(--color1);
+    padding: 20px 0;
+    margin-top: 30px;
+}
+
+.mb-0{
+    color: #ffffff;
+    font-size:small;
+}
+a.app{
+    font-family: "Lexend", sans-serif;
+    font-size: small;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
