@@ -1,0 +1,92 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  body {
+    background: linear-gradient(to right, #e3f2fd, #fff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+
+  .container {
+    background-color: white;
+    padding: 30px 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    width: 400px;
+  }
+
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #1976d2;
+  }
+
+  .input-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 2px solid #1976d2;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  button {
+    padding: 10px 15px;
+    background-color: #1976d2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #1565c0;
+  }
+  
+  /* Lista */
+  ul#lista {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  ul#lista li {
+    background-color: #f1f8ff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  ul#lista li button {
+    margin-left: 10px;
+    background-color: #e53935;
+  }
+  
+  ul#lista li button:last-child {
+    background-color: #ffb300;
+  }
+  
+  ul#lista li button:hover:last-child {
+    background-color: #ffa000;
+  }
+  
+  ul#lista li button:hover:first-child {
+    background-color: #d32f2f;
+  }
+  
