@@ -1,0 +1,9 @@
+1)
+db.Usuarios.insertMany([{"nombre":"Mirko","apellido":"Diosquez","edad":17,"mail":"alumno26.diosquez@ipm.edu.ar","compras":Array}{"nombre":"Maximo","apellido":"Hermosilla","edad":17,"mail":"alumno26.hermosilla@ipm.edu.ar","compras":Array}])
+
+db.Usuarios.find({edad:17})
+
+2)
+db.Usuarios.find({edad:{$gt:25},{"nombre":1,"apellido":1})
+
+
