@@ -1,0 +1,59 @@
+[{
+  "_id": {
+    "$oid": "68b06eeb6b49d71cc3265dc6"
+  },
+  "nombreProf": "Mirko",
+  "Apellido": "Diosquez",
+  "gmail": "mirkoD@gmail.com",
+  "edad": 23,
+  "materias": [
+    {
+      "materia": "Matematica",
+      "valor": 4
+    },
+    {
+      "materia": "Ingles",
+      "valor": 5
+    },
+    {
+      "materia": "Base de datos",
+      "valor": 6
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "68b06eeb6b49d71cc3265dc7"
+  },
+  "nombreProf": "Julian",
+  "Apellido": "Telesca",
+  "gmail": "pblo04@gmail.com",
+  "edad": 40,
+  "materias": [
+    {
+      "materia": "Matematica",
+      "valor": 4
+    },
+    {
+      "materia": "Base de Datos",
+      "valor": 6
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "68b06eeb6b49d71cc3265dc8"
+  },
+  "nombreProf": "Matias",
+  "Apellido": "Orgnero",
+  "gmail": "xxxx@gmail.com",
+  "edad": 20,
+  "materias": [
+    {
+      "materia": "Matematica",
+      "valor": 4
+    },
+    {
+      "materia": "Ingles",
+      "valor": 5
+    }
+  ]
+}]

@@ -1,0 +1,34 @@
+[{
+  "_id": {
+    "$oid": "68b055696b49d71cc3265dc0"
+  },
+  "fecha": "2024-08-28",
+  "productos": [
+    {
+      "producto": "Cochino yo boy",
+      "cantidad": 10,
+      "precio_unitario": "300 USD",
+      "monto_total": "3000 USD"
+    },
+    {
+      "producto": "Jhon Pol Goldtier",
+      "cantidad": 5,
+      "precio_unitario": "150 USD",
+      "monto_total": "750 USD"
+    },
+    {
+      "producto": "Salvaje de Dios",
+      "cantidad": 15,
+      "precio_unitario": "450 USD",
+      "monto_total": "6750 USD"
+    }
+  ],
+  "usuario": [
+    {
+      "nombre": "Santino",
+      "apellido": "Cantale",
+      "mail": "santino.cantale@gmail.com",
+      "clave": 69
+    }
+  ]
+}]

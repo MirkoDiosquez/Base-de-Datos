@@ -1,0 +1,51 @@
+[{
+  "_id": {
+    "$oid": "68b05f9b6b49d71cc3265dc1"
+  },
+  "titulo_pelicula": "Gigantes de acero",
+  "año": 2012,
+  "genero": "Ciencia y Ficción",
+  "duracion": "90 minutos",
+  "reparto": [
+    {
+      "nombre": "Bradley",
+      "apellido": "Cooper",
+      "fecha_nacimiento": "1980-08-03",
+      "nacionalidad": "Estados Unidos"
+    },
+    {
+      "nombre": "Jennifer",
+      "apellido": "Lawrence",
+      "fecha_nacimiento": "1990-07-05",
+      "nacionalidad": "Estados Unidos"
+    },
+    {
+      "nombre": "Mili",
+      "apellido": "Sieh",
+      "fecha_nacimiento": "2007-12-25",
+      "nacionalidad": "Argentina"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "68b05f9b6b49d71cc3265dc2"
+  },
+  "titulo_pelicula": "Los Juegos del Hambre",
+  "año": 2014,
+  "genero": "Ciencia y Ficción",
+  "duracion": "120 minutos",
+  "reparto": [
+    {
+      "nombre": "Jennifer",
+      "apellido": "Lawrence",
+      "fecha_nacimiento": "1990-07-05",
+      "nacionalidad": "Estados Unidos"
+    },
+    {
+      "nombre": "Mili",
+      "apellido": "Sieh",
+      "fecha_nacimiento": "2007-12-25",
+      "nacionalidad": "Argentina"
+    }
+  ]
+}]

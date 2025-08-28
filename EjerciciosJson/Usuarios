@@ -1,0 +1,23 @@
+[{
+  "_id": {
+    "$oid": "68b050f56b49d71cc3265dbf"
+  },
+  "nombre": "Santi",
+  "apellido": "Cantale",
+  "mail": "santino.cantale@gmail.com",
+  "clave": 69,
+  "direccion_entrega": [
+    {
+      "direccion": "Miramar 2879",
+      "ciudad": "CABA",
+      "cod_postal": 1427,
+      "provincia": "Buenos_Aires"
+    },
+    {
+      "direccion": "Pachecho 5024",
+      "ciudad": "Cordoba",
+      "cod_postal": 1452,
+      "provincia": "Cordoba"
+    }
+  ]
+}]

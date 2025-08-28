@@ -1,0 +1,16 @@
+[{
+  "_id": {
+    "$oid": "68b04dac9beece276f9dc5eb"
+  },
+  "nombre": "juan",
+  "apellido": "lopez",
+  "fechaNacimiento": "2024-05-04",
+  "puesto": "Administrador",
+  "carnet": [
+    {
+      "numeroSerie": 4,
+      "fechaEmision": "2026-05-04",
+      "fechaVenc": "2030-06-07"
+    }
+  ]
+}]
