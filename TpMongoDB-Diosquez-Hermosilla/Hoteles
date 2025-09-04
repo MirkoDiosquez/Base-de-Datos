@@ -1,0 +1,285 @@
+[{
+  "_id": {
+    "$oid": "68b98e85541438fd335543f1"
+  },
+  "nombre": "Santo Tome Resort",
+  "direccion": "Av constituyentes 777",
+  "telefono": 12349,
+  "comodidades": [
+    {
+      "tipoComodidad": "Spa",
+      "numeroInterno": 120
+    },
+    {
+      "tipoComodidad": "Restaurante",
+      "numeroInterno": 123
+    }
+  ],
+  "servicio": "Wifi",
+  "promociones": [
+    {
+      "nombreDescuento": "100 Aniversario",
+      "porcentaje": 15,
+      "fechaInicio": "01/09/2025",
+      "fechaFin": "15/09/2025"
+    },
+    {
+      "nombreDescuento": "Primavera",
+      "porcentaje": 10,
+      "fechaInicio": "21/09/2025",
+      "fechaFin": "28/09/2025"
+    }
+  ],
+  "mensajes": [
+    {
+      "mensajesHotel": "Si",
+      "mensajesCliente": [
+        {
+          "emailCliente": "pepe@gmail.com",
+          "mensaje": "Hola, tienen habitaciones para 3 personas disponibles?"
+        }
+      ]
+    }
+  ],
+  "puntoInteres": [
+    {
+      "nombre": "Parque de la Costa",
+      "direccion": "Bielsa 5550",
+      "horarioAtencion": "De 8:00 hs a 20:30 hs",
+      "diasCerrados": "Domingos",
+      "ubicacion": "El Tigre",
+      "web": "parquedelacosta.com.ar"
+    },
+    {
+      "nombre": "Temaikèn",
+      "direccion": "Ruta 25, Escobar",
+      "horarioAtencion": "De 9:00 hs a 18:00 hs",
+      "diasCerrados": "Lunes",
+      "ubicacion": "Escobar",
+      "web": "temaiken.org.ar"
+    }
+  ],
+  "numerosUtiles": [
+    {
+      "servicio": "Policía",
+      "telefono": "911"
+    },
+    {
+      "servicio": "Bomberos",
+      "telefono": "100"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "68b99187541438fd335543f2"
+  },
+  "nombre": "Hotel Cataratas Deluxe",
+  "direccion": "Av. Misiones 1500",
+  "telefono": 98765,
+  "comodidades": [
+    {
+      "tipoComodidad": "Pileta",
+      "numeroInterno": 210
+    },
+    {
+      "tipoComodidad": "Gimnasio",
+      "numeroInterno": 215
+    }
+  ],
+  "servicio": "Desayuno incluido",
+  "promociones": [
+    {
+      "nombreDescuento": "Paquete Familiar",
+      "porcentaje": 20,
+      "fechaInicio": "05/10/2025",
+      "fechaFin": "20/10/2025"
+    }
+  ],
+  "mensajes": [
+    {
+      "mensajesHotel": "No",
+      "mensajesCliente": [
+        {
+          "emailCliente": "ana@example.com",
+          "mensaje": "Tienen disponibilidad para 2 noches en octubre?"
+        }
+      ]
+    }
+  ],
+  "puntoInteres": [
+    {
+      "nombre": "Cataratas del Iguazú",
+      "direccion": "Parque Nacional Iguazú",
+      "horarioAtencion": "De 7:00 hs a 18:00 hs",
+      "diasCerrados": "Ninguno",
+      "ubicacion": "Puerto Iguazú",
+      "web": "iguazuargentina.com"
+    },
+    {
+      "nombre": "Hito Tres Fronteras",
+      "direccion": "Av. Tres Fronteras",
+      "horarioAtencion": "Libre acceso",
+      "diasCerrados": "Ninguno",
+      "ubicacion": "Puerto Iguazú",
+      "web": "misiones.tur.ar"
+    }
+  ],
+  "numerosUtiles": [
+    {
+      "servicio": "Hospital Samic",
+      "telefono": "03757-420333"
+    },
+    {
+      "servicio": "Prefectura",
+      "telefono": "106"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "68b99187541438fd335543f3"
+  },
+  "nombre": "Patagonia Lodge",
+  "direccion": "Ruta 40 Km 1234",
+  "telefono": 5551234,
+  "comodidades": [
+    {
+      "tipoComodidad": "Spa",
+      "numeroInterno": 330
+    },
+    {
+      "tipoComodidad": "Pileta",
+      "numeroInterno": 335
+    }
+  ],
+  "servicio": "Estacionamiento gratuito",
+  "promociones": [
+    {
+      "nombreDescuento": "Invierno 2025",
+      "porcentaje": 25,
+      "fechaInicio": "01/07/2025",
+      "fechaFin": "31/08/2025"
+    }
+  ],
+  "mensajes": [
+    {
+      "mensajesHotel": "Si",
+      "mensajesCliente": [
+        {
+          "emailCliente": "carlos@example.com",
+          "mensaje": "Aceptan mascotas en las habitaciones?"
+        }
+      ]
+    }
+  ],
+  "puntoInteres": [
+    {
+      "nombre": "Glaciar Perito Moreno",
+      "direccion": "Parque Nacional Los Glaciares",
+      "horarioAtencion": "De 8:00 hs a 18:00 hs",
+      "diasCerrados": "Ninguno",
+      "ubicacion": "El Calafate",
+      "web": "losglaciares.com"
+    },
+    {
+      "nombre": "Lago Argentino",
+      "direccion": "Acceso libre",
+      "horarioAtencion": "24 hs",
+      "diasCerrados": "Ninguno",
+      "ubicacion": "El Calafate",
+      "web": "turismoelcalafate.com"
+    }
+  ],
+  "numerosUtiles": [
+    {
+      "servicio": "Gendarmería",
+      "telefono": "03702-491234"
+    },
+    {
+      "servicio": "Turismo",
+      "telefono": "02902-491100"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "68b994ea541438fd335543f6"
+  },
+  "nombre": "Mar del Plata Suites",
+  "direccion": "Av. Colón 1450",
+  "telefono": 2234567,
+  "comodidades": [
+    {
+      "tipoComodidad": "Pileta climatizada",
+      "numeroInterno": 201
+    },
+    {
+      "tipoComodidad": "Restaurante gourmet",
+      "numeroInterno": 202
+    },
+    {
+      "tipoComodidad": "Spa",
+      "numeroInterno": 205
+    }
+  ],
+  "servicio": "Estacionamiento cubierto",
+  "promociones": [
+    {
+      "nombreDescuento": "Fin de Semana Largo",
+      "porcentaje": 20,
+      "fechaInicio": "08/12/2025",
+      "fechaFin": "10/12/2025"
+    },
+    {
+      "nombreDescuento": "Navidad",
+      "porcentaje": 15,
+      "fechaInicio": "20/12/2025",
+      "fechaFin": "26/12/2025"
+    }
+  ],
+  "mensajes": [
+    {
+      "mensajesHotel": "Si",
+      "mensajesCliente": [
+        {
+          "emailCliente": "lucia@example.com",
+          "mensaje": "Quisiera reservar una suite para fin de semana largo."
+        },
+        {
+          "emailCliente": "martin@example.com",
+          "mensaje": "Tienen menú vegetariano en el restaurante?"
+        }
+      ]
+    }
+  ],
+  "puntoInteres": [
+    {
+      "nombre": "Playa Varese",
+      "direccion": "Costa Atlántica",
+      "horarioAtencion": "Acceso libre",
+      "diasCerrados": "Ninguno",
+      "ubicacion": "Mar del Plata",
+      "web": "turismo.mardelplata.gob.ar"
+    },
+    {
+      "nombre": "Aquarium Mar del Plata",
+      "direccion": "Av. Martínez de Hoz 5600",
+      "horarioAtencion": "De 10:00 hs a 18:00 hs",
+      "diasCerrados": "Martes",
+      "ubicacion": "Mar del Plata",
+      "web": "aquariummdp.com"
+    }
+  ],
+  "numerosUtiles": [
+    {
+      "servicio": "Prefectura Naval",
+      "telefono": "106"
+    },
+    {
+      "servicio": "Emergencias Médicas",
+      "telefono": "107"
+    },
+    {
+      "servicio": "Taxi Mar del Plata",
+      "telefono": "223-4790000"
+    }
+  ]
+}]
