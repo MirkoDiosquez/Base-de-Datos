@@ -4,30 +4,39 @@
   },
   "nombre": "Santo Tome Resort",
   "direccion": "Av constituyentes 777",
-  "telefono": 12349,
   "comodidades": [
     {
-      "tipoComodidad": "Spa",
-      "numeroInterno": 120
-    },
-    {
-      "tipoComodidad": "Restaurante",
-      "numeroInterno": 123
+      "tipoComodidad": "Sauna"
     }
   ],
-  "servicio": "Wifi",
   "promociones": [
     {
       "nombreDescuento": "100 Aniversario",
-      "porcentaje": 15,
-      "fechaInicio": "01/09/2025",
-      "fechaFin": "15/09/2025"
+      "porcentaje": 39,
+      "fechaInicio": {
+        "$date": {
+          "$numberLong": "1756684800000"
+        }
+      },
+      "fechaFin": {
+        "$date": {
+          "$numberLong": "1757894400000"
+        }
+      }
     },
     {
       "nombreDescuento": "Primavera",
-      "porcentaje": 10,
-      "fechaInicio": "21/09/2025",
-      "fechaFin": "28/09/2025"
+      "porcentaje": 39,
+      "fechaInicio": {
+        "$date": {
+          "$numberLong": "1758412800000"
+        }
+      },
+      "fechaFin": {
+        "$date": {
+          "$numberLong": "1759017600000"
+        }
+      }
     }
   ],
   "mensajes": [
@@ -43,7 +52,7 @@
   ],
   "puntoInteres": [
     {
-      "nombre": "Parque de la Costa",
+      "nombre": "Malba",
       "direccion": "Bielsa 5550",
       "horarioAtencion": "De 8:00 hs a 20:30 hs",
       "diasCerrados": "Domingos",
@@ -62,37 +71,62 @@
   "numerosUtiles": [
     {
       "servicio": "Policía",
-      "telefono": "911"
+      "telefono": "0800-911"
     },
     {
       "servicio": "Bomberos",
       "telefono": "100"
     }
-  ]
+  ],
+  "ultima_actualizacion": {
+    "$date": {
+      "$numberLong": "1758201667137"
+    }
+  },
+  "telefonoHotel": 12349
 },{
   "_id": {
     "$oid": "68b99187541438fd335543f2"
   },
   "nombre": "Hotel Cataratas Deluxe",
   "direccion": "Av. Misiones 1500",
-  "telefono": 98765,
   "comodidades": [
     {
       "tipoComodidad": "Pileta",
       "numeroInterno": 210
     },
     {
-      "tipoComodidad": "Gimnasio",
-      "numeroInterno": 215
+      "tipoComodidad": "Sauna"
     }
   ],
-  "servicio": "Desayuno incluido",
   "promociones": [
     {
       "nombreDescuento": "Paquete Familiar",
-      "porcentaje": 20,
-      "fechaInicio": "05/10/2025",
-      "fechaFin": "20/10/2025"
+      "porcentaje": 39,
+      "fechaInicio": {
+        "$date": {
+          "$numberLong": "1759622400000"
+        }
+      },
+      "fechaFin": {
+        "$date": {
+          "$numberLong": "1760918400000"
+        }
+      }
+    },
+    {
+      "nombreDescuento": "Black Friday",
+      "porcentaje": 40.300000000000004,
+      "fechaInicio": {
+        "$date": {
+          "$numberLong": "1757462400000"
+        }
+      },
+      "fechaFin": {
+        "$date": {
+          "$numberLong": "1760054400000"
+        }
+      }
     }
   ],
   "mensajes": [
@@ -133,31 +167,38 @@
       "servicio": "Prefectura",
       "telefono": "106"
     }
-  ]
+  ],
+  "ultima_actualizacion": {
+    "$date": {
+      "$numberLong": "1758201667137"
+    }
+  },
+  "telefonoHotel": 98765
 },{
   "_id": {
     "$oid": "68b99187541438fd335543f3"
   },
   "nombre": "Patagonia Lodge",
   "direccion": "Ruta 40 Km 1234",
-  "telefono": 5551234,
   "comodidades": [
     {
-      "tipoComodidad": "Spa",
-      "numeroInterno": 330
-    },
-    {
-      "tipoComodidad": "Pileta",
-      "numeroInterno": 335
+      "tipoComodidad": "Sauna"
     }
   ],
-  "servicio": "Estacionamiento gratuito",
   "promociones": [
     {
       "nombreDescuento": "Invierno 2025",
-      "porcentaje": 25,
-      "fechaInicio": "01/07/2025",
-      "fechaFin": "31/08/2025"
+      "porcentaje": 39,
+      "fechaInicio": {
+        "$date": {
+          "$numberLong": "1751328000000"
+        }
+      },
+      "fechaFin": {
+        "$date": {
+          "$numberLong": "1756598400000"
+        }
+      }
     }
   ],
   "mensajes": [
@@ -198,14 +239,19 @@
       "servicio": "Turismo",
       "telefono": "02902-491100"
     }
-  ]
+  ],
+  "ultima_actualizacion": {
+    "$date": {
+      "$numberLong": "1758201667137"
+    }
+  },
+  "telefonoHotel": 5551234
 },{
   "_id": {
     "$oid": "68b994ea541438fd335543f6"
   },
   "nombre": "Mar del Plata Suites",
   "direccion": "Av. Colón 1450",
-  "telefono": 2234567,
   "comodidades": [
     {
       "tipoComodidad": "Pileta climatizada",
@@ -216,23 +262,37 @@
       "numeroInterno": 202
     },
     {
-      "tipoComodidad": "Spa",
-      "numeroInterno": 205
+      "tipoComodidad": "Sauna"
     }
   ],
-  "servicio": "Estacionamiento cubierto",
   "promociones": [
     {
       "nombreDescuento": "Fin de Semana Largo",
-      "porcentaje": 20,
-      "fechaInicio": "08/12/2025",
-      "fechaFin": "10/12/2025"
+      "porcentaje": 39,
+      "fechaInicio": {
+        "$date": {
+          "$numberLong": "1765152000000"
+        }
+      },
+      "fechaFin": {
+        "$date": {
+          "$numberLong": "1765324800000"
+        }
+      }
     },
     {
       "nombreDescuento": "Navidad",
-      "porcentaje": 15,
-      "fechaInicio": "20/12/2025",
-      "fechaFin": "26/12/2025"
+      "porcentaje": 39,
+      "fechaInicio": {
+        "$date": {
+          "$numberLong": "1766188800000"
+        }
+      },
+      "fechaFin": {
+        "$date": {
+          "$numberLong": "1766707200000"
+        }
+      }
     }
   ],
   "mensajes": [
@@ -281,5 +341,11 @@
       "servicio": "Taxi Mar del Plata",
       "telefono": "223-4790000"
     }
-  ]
+  ],
+  "ultima_actualizacion": {
+    "$date": {
+      "$numberLong": "1758201667137"
+    }
+  },
+  "telefonoHotel": 2234567
 }]
